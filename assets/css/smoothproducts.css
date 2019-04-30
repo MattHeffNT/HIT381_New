@@ -173,3 +173,16 @@ html, body {
   }
 }
 
+@media screen and (max-width: 990px) {
+  section.go-section.clean-block.clean-hero {
+    background-position-x: 50%;
+  }
+
+  .clean-navbar .navbar-nav .nav-item {
+    padding-right: 0rem;
+  }
+}
+
+.go-section {
+  height: 91.5vh;
+}
