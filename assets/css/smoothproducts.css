@@ -3,6 +3,10 @@ html, body {
   width: 100%;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .sp-loading {
   text-align: center;
   max-width: 270px;
@@ -159,6 +163,20 @@ html, body {
   background: #444;
 }
 
+.go-section {
+  height: 91.5vh;
+}
+
+.map-container {
+  margin-top: 13vh;
+}
+
+.map-container iframe {
+  margin: 0px;
+  width: 100vw;
+  height: 95vh;
+}
+
 @media screen and (max-width: 400px) {
   .sp-wrap {
     margin: 0 0 15px 0;
@@ -181,8 +199,4 @@ html, body {
   .clean-navbar .navbar-nav .nav-item {
     padding-right: 0rem;
   }
-}
-
-.go-section {
-  height: 91.5vh;
 }
